@@ -1,0 +1,10 @@
+from PyQt6.QtWidgets import QApplication, QWidget  # 导入QApplication和QWidget类
+import sys  # 导入sys模块
+
+app = QApplication(sys.argv)  # 创建QApplication对象
+
+window = QWidget()  # 创建QWidget对象
+
+window.show()  # 显示窗体
+
+sys.exit(app.exec())  # 进入应用程序的主循环，并等待退出
