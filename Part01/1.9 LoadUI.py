@@ -7,7 +7,7 @@ class UI(QWidget):  # 定义UI类，继承自QWidget
     def __init__(self):  # 定义构造函数
         super().__init__()  # 调用父类构造函数
 
-        uic.loadUi("WindowUI.ui", self)  # 加载UI文件
+        uic.loadUi("1.8 WindowUI.ui", self)  # 加载UI文件
 
 
 app = QApplication(sys.argv)
