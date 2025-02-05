@@ -11,23 +11,27 @@
 ```text
 PyQtTutorial
     ├── Part01
-    │   ├── 1.5 mywindow.py
-    │   ├── 1.5 window_2.py
-    │   ├── 1.5 window_3.py
-    │   ├── 1.6 window_4.py
-    │   ├── 1.8 WindowUI.py
-    │   ├── 1.8 WindowUI.ui
-    │   ├── 1.9 LoadUI.py
+    │   ├── 1.5_mywindow.py
+    │   ├── 1.5_window_2.py
+    │   ├── 1.5_window_3.py
+    │   ├── 1.6_window_4.py
+    │   ├── 1.8_WindowUI.py
+    │   ├── 1.8_WindowUI.ui
+    │   ├── 1.9_LoadUI.py
     │   └── images
     │       └── python.png
     ├── Part02
-    │   ├── 2.2 label_example.py
-    │   ├── 2.3 button_example.py
-    │   ├── 2.4 lineedit_example.py
-    │   ├── 2.5 hboxlayout.py
-    │   ├── 2.6 vboxlayout.py
-    │   ├── 2.7 gridlayout.py
-    │   ├── 2.8 event_handling.py
+    │   ├── 2.10_Calc.py
+    │   ├── 2.10_Calc.ui
+    │   ├── 2.2_label_example.py
+    │   ├── 2.3_button_example.py
+    │   ├── 2.4_lineedit_example.py
+    │   ├── 2.5_hboxlayout.py
+    │   ├── 2.6_vboxlayout.py
+    │   ├── 2.7_gridlayout.py
+    │   ├── 2.8_event_handling.py
+    │   ├── 2.9_EventHa.py
+    │   ├── 2.9_Event.ui
     │   └── images
     │       ├── 1.gif
     │       └── python.png
@@ -43,7 +47,7 @@ PyQtTutorial
 
 ## 4. 运行环境
 
-- Python 3.x
+- Python 3.9.18
 - PyQt6 6.8.0
 - PyQt6-Qt6 6.8.1
 - PyQt6_sip 13.9.1
