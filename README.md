@@ -21,8 +21,6 @@ PyQtTutorial
     │   └── images
     │       └── python.png
     ├── Part02
-    │   ├── 2.10_Calc.py
-    │   ├── 2.10_Calc.ui
     │   ├── 2.2_label_example.py
     │   ├── 2.3_button_example.py
     │   ├── 2.4_lineedit_example.py
@@ -32,11 +30,18 @@ PyQtTutorial
     │   ├── 2.8_event_handling.py
     │   ├── 2.9_EventHa.py
     │   ├── 2.9_Event.ui
+    │   ├── 2.10_Calc.py
+    │   ├── 2.10_Calc.ui
+    │   ├── 2.11_radiobuttonex.py
     │   └── images
     │       ├── 1.gif
+    │       ├── java.png
+    │       ├── JavaScript.png
     │       └── python.png
     ├── README.md
     └── requirements.txt
+
+5 directories, 26 files
 ```
 
 ## 3. 依赖库
