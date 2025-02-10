@@ -12,9 +12,9 @@ class Window(QWidget):
 
         # 窗口初始化设置 ------------------------------
         # setGeometry(x, y, width, height) 四参数重载方法
-        # 参数1-2：窗口左上角屏幕坐标(2500,400)，适用于多显示器场景
+        # 参数1-2：窗口左上角屏幕坐标(0,0)，适用于多显示器场景
         # 参数3-4：窗口初始尺寸800x600像素
-        self.setGeometry(2500, 400, 800, 600)
+        self.setGeometry(0, 0, 800, 600)
 
         self.setWindowTitle("PyQt6 Event Handling")  # 设置窗口标题
         self.setWindowIcon(QIcon("images/python.png"))  # 设置任务栏图标，支持多种图片格式

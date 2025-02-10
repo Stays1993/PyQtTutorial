@@ -10,7 +10,7 @@ class Window(QWidget):  # 定义Window类，继承自QWidget
         super().__init__()  # 调用父类构造函数
 
         # 设置窗口X位置，Y位置，高度，宽度
-        self.setGeometry(2500, 400, 300, 200)
+        self.setGeometry(0, 0, 300, 200)
 
         # 设置窗口标题
         self.setWindowTitle("PyQt6 QRadioButton")  # 设置窗体标题
