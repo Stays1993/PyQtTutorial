@@ -38,7 +38,7 @@ class Ui_Dialog(object):
         self.verticalLayout.setObjectName("verticalLayout")
         self.checkBox_1 = QtWidgets.QCheckBox(parent=Dialog)
 
-        self.checkBox_1.stateChanged.connect(self.temp)
+        self.checkBox_1.stateChanged.connect(self.item_selected)
 
         font = QtGui.QFont()
         font.setFamily("等距更纱黑体 SC")
@@ -49,7 +49,7 @@ class Ui_Dialog(object):
         self.verticalLayout.addWidget(self.checkBox_1)
         self.checkBox_2 = QtWidgets.QCheckBox(parent=Dialog)
 
-        self.checkBox_2.stateChanged.connect(self.temp)
+        self.checkBox_2.stateChanged.connect(self.item_selected)
 
         font = QtGui.QFont()
         font.setFamily("等距更纱黑体 SC")
@@ -60,7 +60,7 @@ class Ui_Dialog(object):
         self.verticalLayout.addWidget(self.checkBox_2)
         self.checkBox_3 = QtWidgets.QCheckBox(parent=Dialog)
 
-        self.checkBox_3.stateChanged.connect(self.temp)
+        self.checkBox_3.stateChanged.connect(self.item_selected)
 
         font = QtGui.QFont()
         font.setFamily("等距更纱黑体 SC")
@@ -93,7 +93,7 @@ class Ui_Dialog(object):
         self.checkBox_2.setText(_translate("Dialog", "2：100枚金币"))
         self.checkBox_3.setText(_translate("Dialog", "3：1000枚金币"))
 
-    def temp(self):
+    def item_selected(self):
         value = 10
 
         if self.checkBox_1.isChecked():
