@@ -28,7 +28,8 @@ class Window(QWidget):  # 定义Window类，继承自QWidget
         self.setWindowOpacity(0.5)  # 设置窗体透明度
 
 
-app = QApplication(sys.argv)  # 创建QApplication对象
-window = Window()  # 创建Window对象
-window.show()  # 显示窗体
-sys.exit(app.exec())  # 进入应用程序的主循环，并等待退出
+if __name__ == "__main__":
+    app = QApplication(sys.argv)  # 创建QApplication对象
+    window = Window()  # 创建Window对象
+    window.show()  # 显示窗体
+    sys.exit(app.exec())  # 进入应用程序的主循环，并等待退出

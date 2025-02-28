@@ -5,6 +5,7 @@ from PyQt6.QtWidgets import (
     QDoubleSpinBox,
     QLabel,
     QComboBox,
+    QSlider,
 )
 from PyQt6 import uic
 
