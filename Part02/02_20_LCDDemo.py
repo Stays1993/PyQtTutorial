@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file '02_19_LCDDemo.ui'
+# Form implementation generated from reading ui file '02_20_LCDDemo.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
