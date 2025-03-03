@@ -1,0 +1,27 @@
+<RCC>
+  <qresource prefix="images">
+    <file>pdf文件.png</file>
+    <file>保存.png</file>
+    <file>撤销.png</file>
+    <file>打开.png</file>
+    <file>打开文件夹.png</file>
+    <file>打印.png</file>
+    <file>打印预览.png</file>
+    <file>对齐.png</file>
+    <file>复制.png</file>
+    <file>关于.png</file>
+    <file>加粗.png</file>
+    <file>剪切.png</file>
+    <file>居中对齐.png</file>
+    <file>退出.png</file>
+    <file>下划线.png</file>
+    <file>斜体.png</file>
+    <file>新建.png</file>
+    <file>颜色.png</file>
+    <file>右对齐.png</file>
+    <file>粘贴.png</file>
+    <file>重做.png</file>
+    <file>字体.png</file>
+    <file>左对齐.png</file>
+  </qresource>
+</RCC>
