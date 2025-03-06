@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file '04_02_Insert_Data_Demo.ui'
+# Form implementation generated from reading ui file '04_03_Insert_Data_Demo.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #

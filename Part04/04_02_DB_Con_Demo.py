@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file '04_01_DB_Con_Demo.ui'
+# Form implementation generated from reading ui file '04_02_DB_Con_Demo.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
