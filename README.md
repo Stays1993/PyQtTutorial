@@ -13,6 +13,7 @@ Python版本：`3.12.6`
 3. pyside6>=6.8.2.1
 
 ### uv官方资源
+- 使用`uv sync`安装依赖包！
 - [GitHub仓库](https://github.com/astral-sh/uv)  
 - [中文教程](https://vra.github.io/2024/03/31/uv-tutorial1/)
 
