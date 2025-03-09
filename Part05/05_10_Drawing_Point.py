@@ -1,4 +1,4 @@
-from PyQt6.QtGui import QIcon, QFont, QPainter, QPen
+from PyQt6.QtGui import QIcon, QFont, QPainter, QPen, QMouseEvent
 from PyQt6.QtWidgets import QApplication, QWidget
 from PyQt6.QtCore import Qt
 
@@ -26,9 +26,9 @@ class Window(QWidget):
 
         painter.end()
 
-    def mousePressEvent(self, event):
+    def mousePressEvent(self, event: QMouseEvent):
         if event.buttons() & Qt.MouseButton.LeftButton:
-            self.pos_1[0], self.pos_1[1] = self.pos().x(), self.pos().y()
+            self.pos_1[0], self.pos_1[1] = event.pos().x(), event.pos().y()
             self.update()
 
 

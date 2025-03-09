@@ -1,29 +1,36 @@
-from PyQt6.QtGui import QIcon, QFont, QPainter, QPen, QMouseEvent
+from PyQt6.QtGui import QIcon, QFont, QPainter, QPen, QMouseEvent, QPaintEvent
 from PyQt6.QtWidgets import QApplication, QWidget
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore import Qt, QRect
 
 
 class Window(QWidget):
     def __init__(self):
         super().__init__()
         self.setGeometry(200, 200, 700, 500)
-        self.setWindowTitle("Python 05_11_Drawing_Line.py")
+        self.setWindowTitle("Python 05_12_Drawing_Circle.py")
         self.setWindowIcon(QIcon("images/python.png"))
 
         self.pos_1: list = [0, 0]
         self.pos_2: list = [0, 0]
 
-    """通过鼠标单击绘制线条"""
+    """通过鼠标绘制圆"""
 
-    def paintEvent(self, event):
+    def paintEvent(self, event: QPaintEvent):
+        width = self.pos_2[0] - self.pos_1[0]
+        height = self.pos_2[1] - self.pos_1[1]
+
         painter: QPainter = QPainter()
         painter.begin(self)
 
         pen: QPen = QPen(Qt.GlobalColor.red, 5)
         painter.setPen(pen)
 
-        painter.drawLine(self.pos_1[0], self.pos_1[1], self.pos_2[0], self.pos_2[1])
-        print(f"绘图：{(self.pos_1[0], self.pos_1[1], self.pos_2[0], self.pos_2[1])}")
+        rect: QRect = QRect(self.pos_1[0], self.pos_1[1], width, height)
+        start_angle = 0
+        ar_length = 360 * 16
+        painter.drawArc(rect, start_angle, ar_length)
+
+        print(f"绘图：{(width, height)}")
 
         painter.end()
 

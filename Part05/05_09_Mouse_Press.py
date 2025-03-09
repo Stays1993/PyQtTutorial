@@ -1,4 +1,4 @@
-from PyQt6.QtGui import QIcon, QFont
+from PyQt6.QtGui import QIcon, QFont, QMouseEvent
 from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel
 from PyQt6.QtCore import Qt
 
@@ -24,19 +24,19 @@ class Window(QWidget):
         vbox.addWidget(self.label_release)
         self.setLayout(vbox)
 
-    def mousePressEvent(self, event):
+    def mousePressEvent(self, event: QMouseEvent):
         """鼠标按下事件"""
         if event.buttons() & Qt.MouseButton.LeftButton:
-            x = self.x()
-            y = self.y()
+            x = event.pos().x()
+            y = event.pos().y()
 
             text = f"X: {x}, Y: {y}"
             self.label_press.setText(text)
 
-    def mouseReleaseEvent(self, event):
+    def mouseReleaseEvent(self, event: QMouseEvent):
         """鼠标释放事件"""
-        x = self.x()
-        y = self.y()
+        x = event.pos().x()
+        y = event.pos().y()
 
         text = f"X: {x}, Y: {y}"
         self.label_release.setText(text)

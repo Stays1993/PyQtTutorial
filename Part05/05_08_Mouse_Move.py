@@ -1,4 +1,4 @@
-from PyQt6.QtGui import QIcon, QFont
+from PyQt6.QtGui import QIcon, QFont, QMouseEvent
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QHBoxLayout
 
 
@@ -20,9 +20,9 @@ class Window(QWidget):
 
         self.setLayout(hbox)
 
-    def mouseMoveEvent(self, event):
-        x = self.x()
-        y = self.y()
+    def mouseMoveEvent(self, event: QMouseEvent):
+        x = event.pos().x()
+        y = event.pos().y()
 
         text = f"X: {x}, Y: {y}"
 
