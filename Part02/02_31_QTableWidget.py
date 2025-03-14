@@ -12,7 +12,7 @@ class Window(QWidget):
     def __init__(self):
         super().__init__()
         self.setGeometry(400, 400, 500, 300)
-        self.setWindowTitle("Python 02_31_QTableWidget")
+        self.setWindowTitle("PyQt6 02_31_QTableWidget")
         self.setWindowIcon(QIcon("images/python.png"))
 
         vbox = QVBoxLayout()

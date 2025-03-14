@@ -7,7 +7,7 @@ class Window(QWidget):
     def __init__(self):
         super().__init__()
         self.setGeometry(200, 200, 700, 500)
-        self.setWindowTitle("Python 05_07_QConicalGRadient")
+        self.setWindowTitle("PyQt6 05_07_QConicalGRadient")
         self.setWindowIcon(QIcon("images/python.png"))
 
     def paintEvent(self, event):

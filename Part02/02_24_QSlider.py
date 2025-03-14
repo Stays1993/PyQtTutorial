@@ -7,7 +7,7 @@ class Window(QWidget):
     def __init__(self):
         super().__init__()
         self.setGeometry(400, 300, 500, 300)
-        self.setWindowTitle("Python 02_24_QSlider")
+        self.setWindowTitle("PyQt6 02_24_QSlider")
         self.setWindowIcon(QIcon("images/python.png"))
 
         hbox = QHBoxLayout()

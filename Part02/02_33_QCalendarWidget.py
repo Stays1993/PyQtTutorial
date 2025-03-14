@@ -6,7 +6,7 @@ class Window(QWidget):
     def __init__(self):
         super().__init__()
         self.setGeometry(400, 400, 500, 300)
-        self.setWindowTitle("Python 02_33_QCalendarWidget")
+        self.setWindowTitle("PyQt6 02_33_QCalendarWidget")
         self.setWindowIcon(QIcon("images/python.png"))
 
         vbox = QVBoxLayout()

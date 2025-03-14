@@ -13,7 +13,7 @@ class Window(QWidget):  # 定义Window类，继承自QWidget
     def __init__(self):  # 定义构造函数
         super().__init__()  # 调用父类构造函数
         # 设置窗口标题
-        self.setWindowTitle("Python 02_20_QComboBox")  # 设置窗体标题
+        self.setWindowTitle("PyQt6 02_20_QComboBox")  # 设置窗体标题
         # 设置窗口图标
         self.setWindowIcon(QIcon("images/python.png"))  # 设置窗体图标
         # 设置窗口大小及位置

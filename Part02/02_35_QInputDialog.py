@@ -15,7 +15,7 @@ class Window(QDialog):
     def __init__(self):
         super().__init__()
         self.setGeometry(400, 400, 500, 300)
-        self.setWindowTitle("Python 02_35_QInputDialog")
+        self.setWindowTitle("PyQt6 02_35_QInputDialog")
         self.setWindowIcon(QIcon("images/python.png"))
 
         self.create_dialog()

@@ -7,7 +7,7 @@ class Window(QWidget):
     def __init__(self):
         super().__init__()
         self.setGeometry(400, 400, 500, 300)
-        self.setWindowTitle("Python 05_03_QPainter_Ellipse")
+        self.setWindowTitle("PyQt6 05_03_QPainter_Ellipse")
         self.setWindowIcon(QIcon("images/python.png"))
 
     def paintEvent(self, event):

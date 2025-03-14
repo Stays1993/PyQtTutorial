@@ -16,7 +16,7 @@ class Window(QWidget):  # 定义Window类，继承自QWidget
     def __init__(self):  # 定义构造函数
         super().__init__()  # 调用父类构造函数
         # 设置窗口标题
-        self.setWindowTitle("Python QCheckBox")  # 设置窗体标题
+        self.setWindowTitle("PyQt6 QCheckBox")  # 设置窗体标题
         # 设置窗口图标
         self.setWindowIcon(QIcon("images/python.png"))  # 设置窗体图标
 
@@ -26,7 +26,7 @@ class Window(QWidget):  # 定义Window类，继承自QWidget
         hbox = QHBoxLayout()
         vbox = QVBoxLayout()
 
-        self.check1 = QCheckBox("Python")
+        self.check1 = QCheckBox("PyQt6")
         self.check1.setIcon(QIcon("./images/python.png"))
         self.check1.setIconSize(QSize(20, 20))
         self.check1.setFont(QFont("微软雅黑", 16))
